@@ -2,7 +2,8 @@
   <div style="height: 100%">
     <micro-app
       name="sub-test"
-      url="http://localhost:3001/test/"
+      url="http://localhost:3001/test"
+      baseroute="/main/subapp/test"
       keep-alive
       iframe
       @error="handleError"

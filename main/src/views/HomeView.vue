@@ -1,7 +1,5 @@
 <template>
-  <div>
-    <button @click="test()">切换子应用</button>
-  </div>
+  <div>主应用 HOME</div>
 </template>
 
 <script>
