@@ -1,8 +1,7 @@
 <template>
   <div>
     <button @click="toHome()">切换主应用</button>
-    <button @click="test()">切换子应用Home</button>
-    <button @click="testAbout()">切换子应用About</button>
+    <button @click="test()">切换子应用</button>
   </div>
   <router-view />
 </template>
@@ -15,9 +14,6 @@ export default {
     },
     toHome() {
       this.$router.push("/");
-    },
-    testAbout() {
-      this.$router.push("/subapp/test/about");
     },
   },
 };

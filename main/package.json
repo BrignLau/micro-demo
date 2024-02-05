@@ -9,7 +9,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@micro-zoe/micro-app": "1.0.0-rc.3",
+    "@micro-zoe/micro-app": "1.0.0-rc.4",
+    "element-plus": "^2.5.5",
     "vue": "^3.3.11",
     "vue-router": "4"
   },

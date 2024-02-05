@@ -18,7 +18,7 @@ export default {
   },
   methods: {
     handleError() {
-      console.log("cardbag 加载出错了");
+      console.log("test 加载出错了");
     },
   },
 };
